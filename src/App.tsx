@@ -3,6 +3,7 @@ import { AppLayout } from './layouts/AppLayout'
 import { LandingPage } from './pages/LandingPage'
 import { PortfolioPage } from './pages/PortfolioPage'
 import { SustainabilityPage } from './pages/SustainabilityPage'
+import { EVBatteryPage } from './pages/EVBatteryPage'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route element={<AppLayout />}>
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/sustainability" element={<SustainabilityPage />} />
+          <Route path="/ev-battery" element={<EVBatteryPage />} />
           {/* Placeholder routes */}
           <Route path="/fleet" element={<PlaceholderPage title="Fleet" />} />
           <Route path="/insights" element={<PlaceholderPage title="Insights" />} />

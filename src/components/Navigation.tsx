@@ -12,6 +12,7 @@ const pageTitles: Record<string, string> = {
   '/maintenance': 'Maintenance',
   '/reports': 'Reports',
   '/sustainability': 'Sustainability',
+  '/ev-battery': 'EV Battery',
   '/settings': 'Settings',
 }
 
@@ -24,6 +25,7 @@ const navLinks = [
   { label: 'Maintenance', path: '/maintenance' },
   { label: 'Reports', path: '/reports' },
   { label: 'Sustainability', path: '/sustainability' },
+  { label: 'EV Battery', path: '/ev-battery' },
   { label: 'Settings', path: '/settings' },
 ]
 
