@@ -4,12 +4,18 @@ import { LandingPage } from './pages/LandingPage'
 import { PortfolioPage } from './pages/PortfolioPage'
 import { SustainabilityPage } from './pages/SustainabilityPage'
 import { EVBatteryPage } from './pages/EVBatteryPage'
+import { SmartChargingAgentsPage } from './pages/SmartChargingAgentsPage'
+import { TheftIntelligencePage } from './pages/TheftIntelligencePage'
+import { DashboardPage } from './pages/DashboardPage'
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/smart-charging-agents" element={<SmartChargingAgentsPage />} />
+        <Route path="/theft-intelligence" element={<TheftIntelligencePage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
         <Route element={<AppLayout />}>
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/sustainability" element={<SustainabilityPage />} />
