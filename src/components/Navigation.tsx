@@ -36,13 +36,13 @@ export function Navigation() {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="max-w-[1400px] mx-auto px-6">
-        <div className="flex items-center h-16 gap-6">
+        <div className="flex items-center h-20 gap-6">
           {/* Ayvens Logo */}
           <Link to="/portfolio" className="flex items-center gap-2 shrink-0">
             <img
-              src="https://www.ayvens.com/-/media/ayvens/public/cp/logos/website/ayvens-logo-green-with-tagline.png?rev=662c41ff03784d3ab8cd1ce65b6e2b0e"
+              src="https://www.ayvens.com/-/media/ayvens/public/cp/logos/website/ayvens-logo-serene-blue-with-tagline.png"
               alt="Ayvens"
-              className="h-6"
+              className="h-18"
               onError={(e) => {
                 e.currentTarget.style.display = 'none'
                 e.currentTarget.nextElementSibling?.classList.remove('hidden')
